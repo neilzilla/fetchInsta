@@ -1,4 +1,6 @@
 <?php
+	// Test
+
     function fetchInsta($accessToken, $user, $amount = 3) {
         // Get root
         $store = kirby()->roots()->index() . "/site/plugins/instagram/cache$amount.json";
